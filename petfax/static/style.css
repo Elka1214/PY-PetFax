@@ -1,0 +1,135 @@
+/* yellow FFD900
+dark 01004E
+light 00B6FF
+pink FF176B */
+body {
+  background-color: #00b6ff;
+  font-family: "Big Shoulders Display", cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #01004e;
+}
+
+a {
+  color: #ff176b;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0px;
+}
+a h2 {
+  margin: 0 0 1rem 0;
+}
+
+.card {
+  margin: 1.5rem;
+  width: 600px;
+  background-color: #01004e;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 1.5rem;
+  border: 2px solid #ff176b;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 12px 3px rgba(255, 23, 107, 0.88);
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.img-container {
+  width: calc(600px);
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+  border-radius: 1rem;
+}
+
+p {
+  background-color: #01004e;
+  font-size: 1.3rem;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  color: #ff176b;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 2px solid #ff176b;
+  box-shadow: 0px 0px 5px 1px rgba(255, 23, 107, 0.68);
+}
+
+.show {
+  max-width: 750px;
+  max-height: 600px;
+  box-shadow: 0px 3px 10px 3px rgba(255, 23, 107, 1);
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 1rem;
+  background-color: #01004e;
+  color: #ff176b;
+  border: 2px solid #ff176b;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: #ff176b;
+  color: #01004e;
+  border: 2px solid #01004e;
+  cursor: pointer;
+}
+
+form {
+  background-color: #01004e;
+  width: 50%;
+  margin: auto;
+  padding: 1.5rem;
+  text-align: start;
+  box-shadow: 0px 0px 12px 3px rgba(255, 23, 107, 0.88);
+}
+
+form input,
+form textarea {
+  width: calc(100% - 2rem);
+  margin: 0.5rem 0 2rem 0;
+  padding: 1rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: larger;
+  color: #01004e;
+}
+
+form label {
+  color: #ff176b;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+form input[type="submit"] {
+  display: block;
+  width: 200px;
+  margin: auto;
+  background-color: #00b6ff;
+  color: #ff176b;
+  font-weight: bold;
+  border: 2px solid #ff176b;
+  border-radius: 0.5rem;
+}
+
+form input[type="submit"]:hover {
+  background-color: #ff176b;
+  color: #01004e;
+  cursor: pointer;
+}
